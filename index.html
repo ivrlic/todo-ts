@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List</title>
+    
+    
+    <script type="module" crossorigin src="/todo-ts/assets/index-8477f743.js"></script>
+    <link rel="stylesheet" href="/todo-ts/assets/index-4d0fd0e7.css">
+  </head>
+
+  <body>
+    <main>
+      <h1>MY TO DO LIST</h1>
+
+      <section class="section-new-todo">
+        <form id="item-form">
+          <label class="label-new-todo" for="new-todo">Enter a new todo</label>
+          <input class="input-new-todo" type="text" id="new-todo" placeholder="Add here" maxlength="40">
+          <button class="btn-new-todo" aria-label="Add new to do item to the list">+</button>
+        </form>
+      </section>
+
+      <section>
+        <header>
+          <h2>LIST</h2>
+          <button class="btn-clear-list" id="btn-clear-list" aria-label="Remove all items from the list">Clear list</button>
+        </header>
+        <hr>
+        <ul class="todo-list" id="todo-list">
+          <!-- here are todo items going to be -->
+        </ul>
+      </section>
+
+    </main>
+  </body>
+  
+</html>
+ 
